@@ -64,8 +64,6 @@ typings/
 
 package-lock.json
 
-/dist
-
 # JetBrains IDE settings
 .idea
 
