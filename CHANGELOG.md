@@ -1,3 +1,8 @@
+## 0.0.5 - 2021-10-04
+- Update README
+- Upgrade dependencies
+- Fix issue with debug logs
+
 ## 0.0.4 - 2019-11-13
 - `auto-merge` input now also accepts comma separated events:
   - `pull_request_review`;

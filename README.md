@@ -21,7 +21,7 @@ jobs:
     name: Gitflow
     runs-on: ubuntu-latest
     steps:
-    - uses: Logerfo/gitflow-action@0.0.4
+    - uses: MegaverseBE/gitflow-action@0.0.5
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }} # The `GITHUB_TOKEN` secret.
 ```
@@ -38,7 +38,7 @@ jobs:
     name: Gitflow
     runs-on: ubuntu-latest
     steps:
-    - uses: Logerfo/gitflow-action@0.0.4
+    - uses: MegaverseBE/gitflow-action@0.0.5
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }} # The `GITHUB_TOKEN` secret.
         auto-merge: false # If `true`, will try to automatically merge the pull requests.
@@ -61,7 +61,7 @@ jobs:
     name: Gitflow
     runs-on: ubuntu-latest
     steps:
-    - uses: Logerfo/gitflow-action@0.0.4
+    - uses: MegaverseBE/gitflow-action@0.0.5
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }} # The `GITHUB_TOKEN` secret.
         release: release # The `release` branch.
