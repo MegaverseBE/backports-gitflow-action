@@ -1,5 +1,3 @@
-[![Dependencies Status](https://david-dm.org/logerfo/gitflow-action/dev-status.svg)](https://david-dm.org/logerfo/gitflow-action?type=dev)
-
 # Gitflow Action
 This action will automatically merge your `master` branch into `dev` and `release` into `master` through the creation of pull requests that will be automatically merged, if possible and enabled.  
 Those pull requests will be identified by a label named `gitflow` as default.
@@ -21,7 +19,7 @@ on:
 jobs:
   build:
     name: Gitflow
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
     - uses: Logerfo/gitflow-action@0.0.4
       with:
@@ -38,7 +36,7 @@ on:
 jobs:
   build:
     name: Gitflow
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
     - uses: Logerfo/gitflow-action@0.0.4
       with:
@@ -61,7 +59,7 @@ on:
 jobs:
   build:
     name: Gitflow
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
     - uses: Logerfo/gitflow-action@0.0.4
       with:
@@ -85,9 +83,3 @@ Click [here](CHANGELOG.md).
 If you have suggestions for how close-label could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
-
-## Donate
-
-<img src="https://i.imgur.com/ndlBtuX.png" width="200">
-
-BTC: 1LoGErFoNzE1gCA5fzk6A82nV6iJdKssSZ

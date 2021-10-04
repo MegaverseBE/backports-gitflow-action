@@ -1,6 +1,6 @@
 name: gitflow-action
-description: Automatically creates and merges pull requests from `master` to `dev` and from `release` to `master`.
-author: Bruno Logerfo
+description: A GitHub Action that automatically creates and merges pull requests between specified branches..
+author: Bruno Logerfo, Dawid Janik
 
 branding:
   icon: git-merge
@@ -12,15 +12,19 @@ inputs:
     required: true
   release:
     description: The `release` branch.
+    required: false
     default: release
   dev:
     description: The `dev` branch.
+    required: false
     default: dev
   master:
     description: The `master` branch.
+    required: false
     default: master
   label:
     description: The pull request label.
+    required: false
     default: gitflow
   auto-merge:
     description: If `true`, will try to automatically merge pull requests. Can also be set to `pull_request_review`, `check_run`, `push`, or a comma-separated combination of these values to only merge when handling the named events.

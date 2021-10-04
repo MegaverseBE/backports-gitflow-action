@@ -1,21 +1,28 @@
 {
   "name": "gitflow-action",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "private": true,
-  "description": "A GitHub Action that automatically creates and merges pull requests from master to dev and from release to master.",
+  "description": "A GitHub Action that automatically creates and merges pull requests between specified branches.",
   "keywords": [
     "actions",
     "gitflow"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Logerfo/gitflow-action.git"
+    "url": "git+https://github.com/MegaverseBE/gitflow-action.git"
   },
   "author": {
     "email": "bruno@logerfo.tk",
     "name": "Bruno Logerfo",
     "url": "https://github.com/Logerfo"
   },
+  "maintainers": [
+    {
+      "email": "dawid.janik@megaverse.be",
+      "name": "Dawid Janik",
+      "url": "https://github.com/TheDoctor0"
+    }
+  ],
   "homepage": "https://github.com/gitflow-action",
   "bugs": "https://github.com/gitflow-action/issues",
   "license": "MIT",

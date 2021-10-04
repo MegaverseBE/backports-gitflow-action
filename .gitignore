@@ -65,3 +65,9 @@ typings/
 package-lock.json
 
 /dist
+
+# JetBrains IDE settings
+.idea
+
+# VSCode IDE settings
+.vscode
