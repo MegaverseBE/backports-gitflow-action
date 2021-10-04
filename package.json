@@ -1,5 +1,5 @@
 {
-  "name": "gitflow-action",
+  "name": "backports-gitflow-action",
   "version": "0.0.5",
   "private": true,
   "description": "A GitHub Action that automatically creates and merges pull requests between specified branches.",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MegaverseBE/gitflow-action.git"
+    "url": "git+https://github.com/MegaverseBE/backports-gitflow-action.git"
   },
   "author": {
     "email": "bruno@logerfo.tk",
@@ -23,8 +23,8 @@
       "url": "https://github.com/TheDoctor0"
     }
   ],
-  "homepage": "https://github.com/gitflow-action",
-  "bugs": "https://github.com/gitflow-action/issues",
+  "homepage": "https://github.com/backports-gitflow-action",
+  "bugs": "https://github.com/backports-gitflow-action/issues",
   "license": "MIT",
   "main": "src/main.js",
   "scripts": {

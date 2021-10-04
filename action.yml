@@ -1,4 +1,4 @@
-name: gitflow-action
+name: backports-gitflow-action
 description: A GitHub Action that automatically creates and merges pull requests between specified branches..
 author: Bruno Logerfo, Dawid Janik
 
