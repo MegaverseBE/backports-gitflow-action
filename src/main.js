@@ -11,7 +11,7 @@ const token = core.getInput("github-token", { required: true }),
     context = github.context,
     owner = context.repo.owner,
     repo = context.repo.repo,
-    client = new github.GitHub(token);
+    client = new github.getOctokit(token).rest;
 
 function getInput(name, fallback) {
     const input = core.getInput(name);
@@ -118,7 +118,7 @@ async function push() {
     });
     core.debug(JSON.stringify(pulls.data));
     let pull_number;
-    if (pulls.data.length == 1) {
+    if (pulls.data.length === 1) {
         const data = pulls.data[0];
         pull_number = data.number;
         core.info(`Pull request already exists: #${pull_number}.`);
